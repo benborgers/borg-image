@@ -1,0 +1,10 @@
+{
+  "name": "borg-image",
+  "repository": "https://github.com/benborgers/borg-image",
+  "author": "Ben Borgers <borgersbenjamin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "^2.1.1",
+    "puppeteer-core": "^2.1.1"
+  }
+}

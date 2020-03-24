@@ -1,0 +1,13 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "https://github.com/benborgers/borg-image" }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/$1" }
+  ],
+  "functions": {
+    "api/*.js": {
+      "memory": 3008
+    }
+  }
+}
