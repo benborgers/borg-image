@@ -6,7 +6,7 @@
     { "source": "/(.*)", "destination": "/api/$1" }
   ],
   "functions": {
-    "api/*.js": {
+    "api/www.js": {
       "memory": 3008
     }
   }
