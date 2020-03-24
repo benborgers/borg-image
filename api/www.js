@@ -27,7 +27,6 @@ export default async (req, res) => {
           color: black;
           font-size: 32px;
           padding: 4px 16px;
-          margin-left: -16px;
           border-radius: 99px;
           max-width: max-content;
           margin-bottom: 24px;
