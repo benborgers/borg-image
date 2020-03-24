@@ -4,10 +4,5 @@
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/$1" }
-  ],
-  "functions": {
-    "api/www.js": {
-      "memory": 3008
-    }
-  }
+  ]
 }
